@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sub Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="options">
+      <h1 id="title">Services</h1>
+      <h2 id="price">$10.00/ mo</h2>
+      <p>Choose a plan</p>
+      <select name="" id="plan">
+        <option value="monthly">Monthly</option>
+        <option value="quarterly">Quarterly</option>
+        <option value="yearly">Yearly</option>
+      </select>
+      <button id="add">Add to cart</button>
+      <button id="display_cart">Hide Cart</button>
+    </div>
+    <div id="cart">
+      <h1>Cart</h1>
+      <hr/>
+      <button id="empty">Clear Cart</button>
+      <ul id="in_cart"></ul>
+      <h2 id="total">$0</h2>
+    </div>
+  </div>
+
+
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
